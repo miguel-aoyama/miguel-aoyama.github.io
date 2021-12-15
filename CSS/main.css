@@ -98,3 +98,11 @@ main{
   width:80%;
   margin: 20px auto;
 }
+.contents {
+  width:70%;
+  text-align: left;
+  margin: 0 auto;
+}
+.contents h3 {
+  border-bottom: 1px solid #707070;
+}
