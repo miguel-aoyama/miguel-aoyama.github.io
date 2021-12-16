@@ -62,6 +62,7 @@ main{
 .page-title {
   font-size: 3rem;
   font-weight: bold;
+  margin: 10px;
 }
 
 /*works*/
@@ -94,14 +95,41 @@ main{
 .works-content h2 {
   font-size: 3rem;
 }
+.url p{
+  margin: 8px;
+}
+.PC-main{
+  display: flex;
+}
 .PC-main-image {
   background-color: RGB(112,112,112,80%);
-  height:100%;
-  width:70%;
+  max-height:500px;
+  width:50%;
 }
 .PC-main-image img{
-  width:80%;
-  margin: 20px auto;
+  max-width:90%;
+  max-height:400px;
+  margin: 30px auto;
+}
+.sub-image {
+  width:50%;
+  display: flex;
+}
+.sub-image ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.sub-image li {
+  width:45%;
+  height:200px;
+  margin-left: 10px;
+}
+.aside {
+  height:150px;
+}
+.side {
+  height:200px;
 }
 .contents {
   width:70%;
