@@ -33,7 +33,7 @@ main{
   display: flex;
   font-size: 1rem;
   text-transform: uppercase;
-  margin-top: 34px;
+  margin-top: 20px;
   list-style: none;
 }
 
@@ -69,6 +69,7 @@ main{
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  border-top: 1px solid #707070;
 }
 .works-container div{
   width: 20%;
@@ -80,7 +81,11 @@ main{
 .works-container a{
   color:#432;
 }
-
+.works-container img{
+  height:150px;
+  display: block;
+  margin: 0 auto;
+}
 /*work-content
 -----------------------------*/
 .works-content {
