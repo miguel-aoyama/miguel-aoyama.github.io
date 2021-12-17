@@ -11,7 +11,15 @@
         <ul class="main-nav">
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
-          <li><a href="#">WORKS</a></li>
+          <li><form id="works">
+            <select name="select">
+              <option value="" hidden>WORKS</option>
+              <option value="whatab.html">Whatab</option>
+              <option value="re-cipe.html">Re-cipe</option>
+              <option value="analog-helper.html">AnalogHelper</option>
+              <option value="portfolio.html">Portfolio Site</option>
+            </select>
+          </form></li>
         </ul>
       </nav>
     </header>
@@ -26,12 +34,16 @@
         </div>
         <div class="introductions">
           <div class="PC-main">
-            <p>PC メインページ</p>
             <div class="PC-main-image">
               <img src="images/Re-cipe/PC-main.jpeg" id="big-img" >
             </div>
-            <div class="sub-img">
-
+            <div class="sub-image">
+              <ul>
+                <li><img src="images/Re-cipe/PC-main.jpeg" class="thumb aside" data-image="images/Re-cipe/PC-main.jpeg" alt=""></li>
+                <li><img src="images/Re-cipe/post.jpeg" class="thumb aside" data-image="images/Re-cipe/post.jpeg" alt=""></li>
+                <li><img src="images/Re-cipe/get.jpeg" class="thumb aside" data-image="images/Re-cipe/get.jpeg" alt=""></li>
+                <li><img src="images/Re-cipe/sp-main.jpeg" class="thumb side" data-image="images/Re-cipe/sp-main.jpeg" alt=""></li>
+              </ul>
             </div>
           </div>
           <div class="pages">
@@ -68,5 +80,6 @@
         </div>
       </div>
     </main>
+    <script src="js/master.js"></script>
   </body>
 </html>
